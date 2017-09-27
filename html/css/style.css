@@ -12,6 +12,7 @@ body{
     width: 940px;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
 }
 
 .line{
@@ -51,6 +52,12 @@ body{
     background-image: url(../img/ico_link_on.png);
 }
 
+
+.top-gallery-btn{
+    margin-top: -8px;
+}
+
+
 /*title*/
 
 .title{
@@ -69,40 +76,10 @@ body{
 
 /*txt*/
 
+/*nav*/
 
-
-/*#header*/
-
-#header{
-    width: 100%;
-    height: 100px;
-    background-color: #900;
-}
-
-#logo{
-    position: relative;
-    top: 28px;
-    left: 32px;
-    float: left;
+#nav{
     line-height: 1;
-}
-
-#global-nav{
-    list-style-type: none;
-    margin-left: 124px;
-    padding-top: 45px;
-    
-}
-
-#global-nav li{
-    float: left;
-    margin-right: 50px;
-    vertical-align: center;
-}
-
-#global-nav a{
-    display: block;
-    text-indent: -9999px;
 }
 
 .nav-about a{
@@ -144,6 +121,42 @@ body{
 .nav-access a:hover{
     background-image: url(../img/nav_access_on.png);
 }
+
+/*#header*/
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #900;
+}
+
+#logo{
+    position: relative;
+    top: 28px;
+    left: 32px;
+    float: left;
+    line-height: 1;
+}
+
+#global-nav{
+    list-style-type: none;
+    margin-left: 124px;
+    padding-top: 45px;
+    
+}
+
+#global-nav li{
+    float: left;
+    margin-right: 50px;
+    vertical-align: center;
+}
+
+#global-nav a{
+    display: block;
+    text-indent: -9999px;
+}
+
+
 
 
 /*#mv*/
