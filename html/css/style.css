@@ -1,6 +1,5 @@
 @charset "utf-8";
-
-body{
+body {
     background-color: #fff4d6;
     font-size: 16px;
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif;
@@ -8,14 +7,14 @@ body{
     color: #900;
 }
 
-.inner{
+.inner {
     width: 940px;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
 }
 
-.line{
+.line {
     line-height: 1;
     width: 30%;
     height: 6px;
@@ -24,18 +23,17 @@ body{
     clear: both;
 }
 
-.line-right{
+.line-right {
     float: right;
     clear: both;
 }
 
-
-.more-btn{
+.more-btn {
     clear: both;
     float: right;
 }
 
-.more-btn a{
+.more-btn a {
     height: 17px;
     line-height: 1;
     display: block;
@@ -47,90 +45,91 @@ body{
     background-position: right center;
 }
 
-.more-btn a:hover{
+.more-btn a:hover {
     color: #201161;
     background-image: url(../img/ico_link_on.png);
 }
 
-
-.top-gallery-btn{
+.top-gallery-btn {
     margin-top: -8px;
 }
 
 
 /*title*/
 
-.title{
+.title {
     margin-bottom: 60px;
     line-height: 1;
 }
 
-.event-title{
+.event-title {
     float: left;
 }
 
-.gallery-title{
+.gallery-title {
     float: right;
 }
 
 
 /*txt*/
 
+
 /*nav*/
 
-#nav{
+#nav {
     line-height: 1;
 }
 
-.nav-about a{
+.nav-about a {
     width: 40px;
     height: 11px;
     background: url(../img/nav_about.png) no-repeat center center;
 }
 
-.nav-about a:hover{
+.nav-about a:hover {
     background-image: url(../img/nav_about_on.png);
 }
 
-.nav-event a{
+.nav-event a {
     width: 88px;
     height: 12px;
     background: url(../img/nav_event.png) no-repeat center center;
 }
 
-.nav-event a:hover{
+.nav-event a:hover {
     background-image: url(../img/nav_event_on.png);
 }
 
-.nav-gallery a{
+.nav-gallery a {
     width: 52px;
     height: 11px;
     background: url(../img/nav_gallery.png) no-repeat center center;
 }
 
-.nav-gallery a:hover{
+.nav-gallery a:hover {
     background-image: url(../img/nav_gallery_on.png);
 }
 
-.nav-access a{
+.nav-access a {
     width: 47px;
     height: 11px;
     background: url(../img/nav_access.png) no-repeat center center;
 }
 
-.nav-access a:hover{
+.nav-access a:hover {
     background-image: url(../img/nav_access_on.png);
 }
 
+
 /*#header*/
 
-#header{
+#header {
     width: 100%;
     height: 100px;
     background-color: #900;
 }
 
-#logo{
+#logo {
     position: relative;
     top: 28px;
     left: 32px;
@@ -138,30 +137,27 @@ body{
     line-height: 1;
 }
 
-#global-nav{
+#global-nav {
     list-style-type: none;
     margin-left: 124px;
     padding-top: 45px;
-    
 }
 
-#global-nav li{
+#global-nav li {
     float: left;
     margin-right: 50px;
     vertical-align: center;
 }
 
-#global-nav a{
+#global-nav a {
     display: block;
     text-indent: -9999px;
 }
 
 
-
-
 /*#mv*/
 
-#mv{
+#mv {
     width: 100%;
     height: 670px;
     text-indent: -9999px;
@@ -169,85 +165,83 @@ body{
     background-size: cover;
 }
 
+
 /*#about*/
 
-#top-about{
+#top-about {
     padding-top: 120px;
     padding-bottom: 45px;
     position: relative;
 }
 
-
-.about-lead{
+.about-lead {
     width: 464px;
     margin: 0 16px 50px 0;
     float: left;
     text-align: left;
 }
 
-.about-img{
+.about-img {
     line-height: 1;
-/*    float: right;*/
+    /*    float: right;*/
     margin-bottom: 48px;
 }
 
-.about-img-item{
+.about-img-item {
     line-height: 1;
     margin-bottom: 35px;
 }
 
-.about-content{
+.about-content {
     clear: both;
 }
 
-.about-content h3{
+.about-content h3 {
     line-height: 1;
     font-size: 24px;
     margin-bottom: 32px;
 }
 
-.about-content-item{
+.about-content-item {
     margin-bottom: 28px;
 }
 
-.about-content-item h4{
+.about-content-item h4 {
     font-size: 18px;
     margin-bottom: 20px;
     line-height: 1;
 }
 
-.logo-about{
+.logo-about {
     position: absolute;
     top: 757px;
     left: 258px;
 }
 
-.logo-about-img{
+.logo-about-img {
     margin-bottom: 20px;
 }
-.logo-about-title{
+
+.logo-about-title {
     position: relative;
     left: 22px;
 }
 
 
-
 /*top-event*/
 
-#top-event{
+#top-event {
     padding-top: 77px;
     padding-bottom: 77px;
     overflow: hidden;
 }
 
-
-
-.event-list{
+.event-list {
     clear: both;
     list-style-type: none;
 }
 
-.event-list-item{
+.event-list-item {
     width: 300px;
     height: 420px;
     float: left;
@@ -256,24 +250,24 @@ body{
     background-color: #fff;
 }
 
-.event-list-item:last-child{
+.event-list-item:last-child {
     margin-right: 0;
 }
 
-.event-list-item a{
+.event-list-item a {
     width: 300px;
-    height: 420px;    
+    height: 420px;
     display: block;
     text-decoration: none;
     color: #900;
     overflow: hidden;
 }
 
-.event-list-item a:hover{
+.event-list-item a:hover {
     color: #201161;
 }
 
-.event-item-title{
+.event-item-title {
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -282,42 +276,40 @@ body{
 
 /*top-gallery*/
 
-
-#top-gallery{
+#top-gallery {
     padding-top: 77px;
     padding-bottom: 77px;
     overflow: hidden;
     clear: both;
 }
 
-
-.gallery-list{
+.gallery-list {
     clear: both;
     list-style-type: none;
     line-height: 1;
 }
 
-.gallery-list li{
+.gallery-list li {
     float: left;
     margin-bottom: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
-.gallery-list li:nth-child(4n){
+.gallery-list li:nth-child(4n) {
     margin-right: 0;
 }
 
 
 /*top-access*/
 
-#top-access{
+#top-access {
     padding-top: 77px;
     padding-bottom: 80px;
     overflow: hidden;
     clear: both;
 }
 
-.access-map-area{
+.access-map-area {
     line-height: 1;
     background-color: #fff;
     width: 400px;
@@ -326,35 +318,34 @@ body{
     line-height: 1;
 }
 
-.access-txt-area{
+.access-txt-area {
     float: right;
     font-size: 14px;
-        text-align: left;
+    text-align: left;
     line-height: 1;
 }
 
 .access-txt-area dt,
-.access-txt-area dd{
+.access-txt-area dd {
     margin-bottom: 20px;
 }
 
-.access-txt-area dt{
+.access-txt-area dt {
     float: left;
     clear: both;
 }
 
-.access-txt-area dd{
-    
+.access-txt-area dd {
     padding-left: 80px;
 }
 
-.access-txt-area ul{
+.access-txt-area ul {
     clear: both;
     list-style-type: none;
     line-height: 1.5;
 }
 
-.access-txt-area li{
+.access-txt-area li {
     padding-left: 20px;
     background-image: url(../img/list-markar.png);
     background-repeat: no-repeat;
@@ -364,46 +355,46 @@ body{
 
 /*footer*/
 
-#footer{
+#footer {
     background-color: #900;
     padding: 80px 0 65px 0;
 }
 
-.ft-logo{
+.ft-logo {
     margin-bottom: 21px;
 }
 
-#ft-nav{
+#ft-nav {
     margin-bottom: 16px;
 }
 
-#ft-nav li{
+#ft-nav li {
     display: inline-block;
     padding: 0 13px 0 13px;
 }
 
-#ft-nav a{
+#ft-nav a {
     line-height: 1;
     display: block;
     text-indent: -9999px;
 }
 
-.ico-list{
+.ico-list {
     list-style-type: none;
     margin-bottom: 14px;
 }
 
-.ico-list li{
+.ico-list li {
     display: inline-block;
     padding: 0 7px;
 }
 
-.ico-list a{
+.ico-list a {
     display: block;
     text-indent: -9999px;
 }
 
-.ico-twitter{
+.ico-twitter {
     width: 32px;
     height: 26px;
     background-image: url(../img/ico_ft_twitter.png);
@@ -411,11 +402,11 @@ body{
     background-position: center content;
 }
 
-.ico-twitter:hover{
+.ico-twitter:hover {
     background-image: url(../img/ico_ft_twitter_on.png);
 }
 
-.ico-facebook{
+.ico-facebook {
     width: 28px;
     height: 28px;
     background-image: url(../img/ico_ft_facebook.png);
@@ -423,14 +414,12 @@ body{
     background-position: center content;
 }
 
-.ico-facebook:hover{
+.ico-facebook:hover {
     background-image: url(../img/ico_ft_facebook_on.png);
 }
 
-.copywriting{
+.copywriting {
     line-height: 1;
-    color:#fff4d6;
+    color: #fff4d6;
     font-size: 14px;
 }
-
-
